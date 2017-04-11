@@ -7,20 +7,23 @@
 
 </head>
 <body>
-<h1>5 DAY FORECAST</h1>
+<div id= "container">
 
+  <h1>5 DAY FORECAST</h1>
 
-<div id= "form-container">
-<form id= "where" action="/action_page.php">
- <input type="text" name="City" value="City">
-  <br>
-  <input type="text" name="Country" value="Country">
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
+  <div id= "form-container">
+    <form id= "where" action="/action_page.php">
+       <input type="text" name="City" value="City" class>
+        <br>
+          <div id= "between"></div>
+        <input type="text" name="Country" value="Country">
+        <br><br>
+        <input id= "submit" type="submit" value="Submit">
+    </form>
+  </div>
+
+  <p>Enter your city and country above, and we'll retrieve your weather forecast.</p>
 </div>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
   <script src= 'js/key.js'></script>
   <script src= 'js/client.js'></script>
